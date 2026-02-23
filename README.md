@@ -109,3 +109,11 @@ jobs:
             lint_results.md
             PR_number.txt
 ```
+
+Finally, since we changed `.github/workflows/linting.yml`, it also needs to be added to the `files_unchanged` section in `.nf-core.yml`:
+
+```yaml
+lint:
+  files_unchanged:
+    - .github/workflows/linting.yml
+```
