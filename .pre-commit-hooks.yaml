@@ -1,6 +1,6 @@
 - id: nf-core-schema-docs
   name: Generate nf-core parameter docs
   entry: hooks/generate_nfcore_schema_docs.sh
-  language: system
+  language: script
   files: ^nextflow_schema\.json$
   pass_filenames: false
