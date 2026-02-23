@@ -25,7 +25,7 @@ repos:
 pre-commit install
 ```
 
-The hook will now run `nf-core pipelines schema docs` if `nextflow_schema.json` has been updated when you commit.
+The hook will now run `nf-core pipelines schema docs` if `nextflow_schema.json` is staged when you commit.
 
 ## Configuration
 
