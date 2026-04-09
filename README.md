@@ -117,3 +117,9 @@ lint:
   files_unchanged:
     - .github/workflows/linting.yml
 ```
+
+Additionally, add the parameters file to `.prettierignore` to prevent prettier from changing the file:
+
+```
+docs/parameters.md
+```
